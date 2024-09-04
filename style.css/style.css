@@ -2,6 +2,19 @@ body{
     background-color: cornflowerblue;
 }
 
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;;  
+    flex-wrap: wrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 .container{
     width: 468px;
     height: 160px;
@@ -24,6 +37,10 @@ body{
 
 .flex{
     display:flex;
+}
+
+.flex-grow{
+    flex-grow: 2;
 }
 
 .justify-start{
@@ -76,3 +93,8 @@ body{
     align-items:stretch;
 }
 
+.text-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
