@@ -17,6 +17,11 @@ body{
     margin: 20px;
     border-radius: 6px;
 }
+
+.container__box-stretch{
+    height: auto;
+}
+
 .flex{
     display:flex;
 }
@@ -33,6 +38,10 @@ body{
     justify-content: space-around;
 }
 
+.justify-stretch{
+    justify-content:stretch;
+}
+
 .align-end{
     align-items: flex-end;
 }
@@ -40,3 +49,8 @@ body{
 .align-center{
     align-items:center;
 }
+
+.align-stretch{
+    align-items:stretch;
+}
+
