@@ -1,0 +1,42 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.container{
+    width: 468px;
+    height: 160px;
+    background-color: orangered;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.container__box{
+    background-color: chartreuse;
+    width: 78px;
+    height: 78px;
+    margin: 20px;
+    border-radius: 6px;
+}
+.flex{
+    display:flex;
+}
+
+.justify-start{
+    justify-content:flex-start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-center{
+    align-items:center;
+}
