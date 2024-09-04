@@ -42,8 +42,30 @@ body{
     justify-content:stretch;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.align-start{
+    align-items: flex-start;
+}
+
 .align-end{
     align-items: flex-end;
+}
+
+.align-self{
+    align-self: flex-end;
+}
+
+.align-self-stretch{
+    align-self: stretch;
 }
 
 .align-center{
